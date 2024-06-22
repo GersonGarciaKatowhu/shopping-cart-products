@@ -1,10 +1,10 @@
 import Filters from './Filters'
 
-function Header() {
+function Header({changeFilters}) {
   return (
     <header>
       <h1>React shop</h1>
-      <Filters />
+      <Filters changeFilters={changeFilters}/>
     </header>
   )
 }
