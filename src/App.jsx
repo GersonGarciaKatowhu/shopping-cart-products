@@ -4,6 +4,7 @@ import './App.css'
 import { Products} from './components/Products'
 import Header from './components/Header'
 import useFilters from './hooks/useFilters'
+import { Footer } from './components/Footer'
 
 function App() {
   const {filterProducts, setFilters} = useFilters()
@@ -12,6 +13,7 @@ function App() {
     <>
       <Header changeFilters={setFilters} />
       <Products products={filterProducts(products)} />
+      <Footer />
     </>
   )
 }
