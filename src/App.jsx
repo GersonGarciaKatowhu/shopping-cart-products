@@ -8,13 +8,14 @@ import { Footer } from './components/Footer'
 import { IS_DEVELOPMENT } from './config'
 
 function App() {
-  const {filters, filterProducts, setFilters} = useFilters()
+  const {filterProducts} = useFilters()
   const [products, setProducts] = useState(initialProducts)
+  const filteredProducts = filterProducts(products)
   return (
     <>
-      <Header changeFilters={setFilters} />
-      <Products products={filterProducts(products)} />
-      {IS_DEVELOPMENT && <Footer filters={filters} />}
+      <Header />
+      <Products products={filteredProducts} />
+      {IS_DEVELOPMENT && <Footer />}
     </>
   )
 }

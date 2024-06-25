@@ -1,19 +1,21 @@
-import { useState, useId } from 'react'
+import { useState, useId, useContext } from 'react'
 import './Filters.css'
+import { FiltersContext } from '../context/filters'
 const options = [['all', "Todos"], ['laptops', 'Laptops'], ['smartphones', 'Celulares'], ["fragrances", 'Perfume'], ['skincare', 'Skincare'], ['groceries', 'Comestibles']]
-function Filters({ changeFilters }) {
+function Filters() {
+  const {setFilters, filters } = useContext(FiltersContext)
   const [minPrice, setMinPrice] = useState(0)
   const categoryFilterId = useId()
   const minPriceFilterId = useId()
   function handleChangeMinPrice(e) {
     setMinPrice(e.target.value)
-    changeFilters(prevState => ({
+    setFilters(prevState => ({
       ...prevState,
       minPrice: e.target.value
     }))
   }
   function handleChangeCategory(e) {
-    changeFilters(prevState => ({
+    setFilters(prevState => ({
       ...prevState,
       category: e.target.value
     }))
