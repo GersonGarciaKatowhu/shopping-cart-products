@@ -1,8 +1,7 @@
-import { useContext } from 'react'
 import './Footer.css'
-import { FiltersContext } from '../context/filters'
+import useFilters from '../hooks/useFilters'
 export function Footer() {
-  const {filters} = useContext(FiltersContext)
+  const {filters} = useFilters()
   return (
     <footer className='footer'>
       {

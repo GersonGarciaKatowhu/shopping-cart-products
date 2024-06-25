@@ -6,7 +6,7 @@ export function Products({ products }) {
         {products.map( product => 
         (
           <li key={product.id}>
-            <p>Aquí debería haber un imagen</p>
+            <p>No image</p>
             <div>
               <h3>{product.title} - ${product.price}</h3>
             </div>

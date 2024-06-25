@@ -1,5 +1,7 @@
 import { createContext, useState } from "react";
 
+const options = [['all', "All"], ['laptops', 'Laptops'], ['smartphones', 'SmartPhone'], ["fragrances", 'Fragrance'], ['skincare', 'Skincare'], ['groceries', 'Groceries']]
+
 // crear el contexto
 export const FiltersContext = createContext()
 
@@ -13,7 +15,8 @@ export function FiltersProvider ({ children }) {
   return(
     <FiltersContext.Provider value={{
       filters,
-      setFilters
+      setFilters,
+      options
     }}>
       {children}
     </FiltersContext.Provider >

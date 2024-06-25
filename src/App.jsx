@@ -1,16 +1,14 @@
-import { products as initialProducts } from './mocks/products.json'
-import { useState } from 'react'
+
 import './App.css'
 import { Products} from './components/Products'
 import Header from './components/Header'
-import useFilters from './hooks/useFilters'
 import { Footer } from './components/Footer'
 import { IS_DEVELOPMENT } from './config'
+import useProducts from './hooks/useProducts'
 
 function App() {
-  const {filterProducts} = useFilters()
-  const [products, setProducts] = useState(initialProducts)
-  const filteredProducts = filterProducts(products)
+  const {filteredProducts} = useProducts()
+
   return (
     <>
       <Header />
