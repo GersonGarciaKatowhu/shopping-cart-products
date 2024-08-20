@@ -8,14 +8,12 @@ function useCart() {
     throw new Error('useCart must be used within a CartProvider')
   }
   function addToCart(product) {
-    // Check if the product is already in the cart
     const productInCart = cart.findIndex(item => item.id === product.id)
     if(productInCart >= 0) {
       const newCart = structuredClone(cart)
       newCart[productInCart].quantity += 1
       return setCart(newCart)
     }
-    // Add new product if the product not exist
     setCart(prevState => [
       ...prevState,
       {
