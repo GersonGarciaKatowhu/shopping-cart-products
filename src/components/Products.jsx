@@ -3,7 +3,7 @@ export function Products({ products }) {
   return (
     <main className="products">
       <ul>
-        {products.map( product => 
+        {products.map( product =>
         (
           <li key={product.id}>
             <p>No image</p>
