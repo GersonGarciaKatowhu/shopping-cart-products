@@ -1,13 +1,15 @@
 import { useId } from "react"
 import './Cart.css'
 import useCart from "../hooks/useCart"
+import CartIcon from './icons/Cart'
+import PlusIcon from "./icons/Plus"
 function Cart() {
   const cartCheckboxId = useId()
-  const {cart, clearCart, addToCart} = useCart()
+  const {cart, cleanCart, addToCart} = useCart()
   return (
     <>
       <label htmlFor={cartCheckboxId} className="cart-button">
-        CART
+        <CartIcon />
       </label>
       <input type="checkbox" id={cartCheckboxId} hidden />
       <aside className="cart">
@@ -23,12 +25,12 @@ function Cart() {
                 {item.quantity}
               </small>
             </footer>
-            <button onClick={() => addToCart(item)}>+</button>
+            <button onClick={() => addToCart(item)}><PlusIcon /></button>
           </li>
             ))
 }
         </ul>
-        <button onClick={clearCart}>Clear cart</button>
+        <button className="clean-cart" onClick={cleanCart}>Clean cart</button>
       </aside>
     </>
   )

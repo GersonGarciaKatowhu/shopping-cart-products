@@ -1,10 +1,14 @@
 import useCart from '../hooks/useCart'
 import './Products.css'
+import AddToCartIcon from './icons/AddToCart'
+import RemoveToCartIcon from './icons/RemoveToCart'
+
 export function Products({ products }) {
   const {addToCart, cart, removeFromCart} = useCart()
   const checkProductInCart = product => {
     return cart.some(item => item.id === product.id)
   }
+
   return (
     <main className="products">
       <ul>
@@ -12,16 +16,16 @@ export function Products({ products }) {
         const isProductInCart = checkProductInCart(product)
         return (
           <li key={product.id}>
-            <p>No image</p>
+            <img src={product.thumbnail} alt={product.title}/>
             <div>
               <h3>{product.title} - ${product.price}</h3>
             </div>
             <div>
               <button onClick={() =>isProductInCart ? removeFromCart(product) : addToCart(product)}>
               {
-                isProductInCart ? 'Esta en el carro' 
+                isProductInCart ? <RemoveToCartIcon />
                 :
-                'Add'
+                <AddToCartIcon />
               }
               </button>
             </div>
