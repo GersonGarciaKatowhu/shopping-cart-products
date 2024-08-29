@@ -2,6 +2,7 @@ import useCart from '../hooks/useCart'
 import './Products.css'
 import AddToCartIcon from './icons/AddToCart'
 import RemoveToCartIcon from './icons/RemoveToCart'
+import DefaultToImg from './DefaultToImg'
 
 export function Products({ products }) {
   const {addToCart, cart, removeFromCart} = useCart()
@@ -16,8 +17,8 @@ export function Products({ products }) {
         const isProductInCart = checkProductInCart(product)
         return (
           <li key={product.id}>
-            <img src={product.thumbnail} alt={product.title}/>
-            <div>
+            <DefaultToImg src={product.thumbnail} alt={product.title} />
+                  <div>
               <h3>{product.title} - ${product.price}</h3>
             </div>
             <div>

@@ -11,12 +11,12 @@ function App() {
   const {filteredProducts} = useProducts()
 
   return (
-    <>
+    <main className='App'>
       <Header />
       <Cart />
       <Products products={filteredProducts} />
       {IS_DEVELOPMENT && <Footer />}
-    </>
+    </main>
   )
 }
 

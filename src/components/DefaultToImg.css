@@ -1,0 +1,8 @@
+img {
+  max-width: 50px;
+  max-height: 50px;
+  object-fit: contain;
+  object-position: center;
+  vertical-align: middle;
+  border-style: none;
+}

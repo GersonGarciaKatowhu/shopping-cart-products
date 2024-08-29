@@ -14,5 +14,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         </CartProvider>
       </FiltersProvider>
     </ProductsProvider>
-  </React.StrictMode>,
+  </React.StrictMode>
 )
