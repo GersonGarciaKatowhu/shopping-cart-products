@@ -24,7 +24,7 @@ function Filters() {
           Price from
         </label>
         <input type="range" id={minPriceFilterId} min={0} max={2000} onChange={handleChangeMinPrice} value={filters.minPrice}/>
-        <span>${filters.minPrice}</span>
+        <span>${filters.minPrice}&nbsp;</span>
       </div>
       
       <div>

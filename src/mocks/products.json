@@ -10,7 +10,7 @@
         "stock":54,
         "brand":"Golden",
         "category":"home-decoration",
-        "thumbnail":"https://i.dummyjson.com/data/products/30/thumbnail.jpg",
+        "thumbnail":"https://images.squarespace-cdn.com/content/v1/5615a2e7e4b09b3c0d7f0af0/1524243892612-0H1T9JJ6AXM1XLKRENNT/Keyholder_3.JPG?format=1500w",
         "images":[
            "https://i.dummyjson.com/data/products/30/1.jpg",
            "https://i.dummyjson.com/data/products/30/2.jpg",
@@ -28,7 +28,7 @@
         "stock":83,
         "brand":"Apple",
         "category":"laptops",
-        "thumbnail":"https://i.dummyjson.com/data/products/6/thumbnail.png",
+        "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ-8zR3Uxxq5s6ZS1mgZnwOuvfTX7NFTpdfg&s",
         "images":[
            "https://i.dummyjson.com/data/products/6/1.png",
            "https://i.dummyjson.com/data/products/6/2.jpg",
@@ -46,7 +46,7 @@
         "stock":34,
         "brand":"Apple",
         "category":"smartphones",
-        "thumbnail":"https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+        "thumbnail":"https://i5.walmartimages.com/seo/Apple-iPhone-X-64GB-Unlocked-GSM-Phone-w-Dual-12MP-Camera-Silver-Used-Refurbished_7113ab44-ebaa-4cc7-aa1f-fb45bee84591_1.1466d956df00bbd68facd5498ba5fc59.jpeg",
         "images":[
            "https://i.dummyjson.com/data/products/2/1.jpg",
            "https://i.dummyjson.com/data/products/2/2.jpg",
@@ -64,7 +64,7 @@
         "stock":36,
         "brand":"Samsung",
         "category":"smartphones",
-        "thumbnail":"https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+        "thumbnail":"https://pbs.twimg.com/media/Dr2wz4AU4AEXQeN.jpg",
         "images":[
            "https://i.dummyjson.com/data/products/3/1.jpg"
         ]
@@ -79,7 +79,7 @@
         "stock":123,
         "brand":"OPPO",
         "category":"smartphones",
-        "thumbnail":"https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+        "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfXKP2I5DC5AhwWZP2Omnylsf04OTlNmsaxg&s",
         "images":[
            "https://i.dummyjson.com/data/products/4/1.jpg",
            "https://i.dummyjson.com/data/products/4/2.jpg",
@@ -98,7 +98,7 @@
         "stock":32,
         "brand":"Huawei",
         "category":"smartphones",
-        "thumbnail":"https://i.dummyjson.com/data/products/5/thumbnail.jpg",
+        "thumbnail":"https://celularesatena.com.mx/2679-large_default/celular-huawei-p30-lite-128gb-dual-sim-a-celularymas-celulares-y-tablets.jpg",
         "images":[
            "https://i.dummyjson.com/data/products/5/1.jpg",
            "https://i.dummyjson.com/data/products/5/2.jpg",
@@ -115,7 +115,7 @@
         "stock":50,
         "brand":"Samsung",
         "category":"laptops",
-        "thumbnail":"https://i.dummyjson.com/data/products/7/thumbnail.jpg",
+        "thumbnail":"https://m.media-amazon.com/images/I/71Y+AYbcZ3S.jpg",
         "images":[
            "https://i.dummyjson.com/data/products/7/1.jpg",
            "https://i.dummyjson.com/data/products/7/2.jpg",
@@ -133,7 +133,7 @@
         "stock":94,
         "brand":"Apple",
         "category":"smartphones",
-        "thumbnail":"https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+        "thumbnail":"https://fotografias.lasexta.com/clipping/cmsimages01/2020/01/22/8691DB95-89B7-4C4F-8C73-BE67AC3188E9/default.jpg?crop=1300,731,x0,y19&width=1900&height=1069&optimize=low",
         "images":[
            "https://i.dummyjson.com/data/products/1/1.jpg",
            "https://i.dummyjson.com/data/products/1/2.jpg",
@@ -152,7 +152,7 @@
         "stock":68,
         "brand":"Microsoft Surface",
         "category":"laptops",
-        "thumbnail":"https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+        "thumbnail":"https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Surface-Laptop-4-Ice-Blue-Open-Front-Angle?wid=834&hei=470&fit=crop",
         "images":[
            "https://i.dummyjson.com/data/products/8/1.jpg",
            "https://i.dummyjson.com/data/products/8/2.jpg",
@@ -171,7 +171,7 @@
         "stock":96,
         "brand":"Infinix",
         "category":"laptops",
-        "thumbnail":"https://i.dummyjson.com/data/products/9/thumbnail.jpg",
+        "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNDC8N9jUUafWD32WQJmf1gMiECQLOiSEQBg&s",
         "images":[
            "https://i.dummyjson.com/data/products/9/1.jpg",
            "https://i.dummyjson.com/data/products/9/2.png",

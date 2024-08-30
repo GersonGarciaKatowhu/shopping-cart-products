@@ -1,8 +1,17 @@
-img {
-  max-width: 50px;
-  max-height: 50px;
-  object-fit: contain;
-  object-position: center;
-  vertical-align: middle;
-  border-style: none;
+.image-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.default-img {
+  width: 100%;
+  height: auto;
+}
+
+.fallback-placeholder {
+  text-align: center;
+  color: #777;
+  padding: 20px;
+  background-color: #f0f0f0;
 }

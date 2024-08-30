@@ -1,5 +1,4 @@
 import Filters from './Filters'
-
 function Header() {
   return (
     <header>

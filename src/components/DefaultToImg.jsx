@@ -1,9 +1,29 @@
-import './DefaultToImg.css'
+import { useState } from 'react';
+import './DefaultToImg.css';
 
-function DefaultToImg({src, alt}) {
+function DefaultToImg({ src, alt }) {
+  const [hasError, setHasError] = useState(false);
+
+  const handleError = (e) => {
+    setHasError(true);
+    e.currentTarget.src = '/defaultImg.jpg';
+    e.currentTarget.alt = 'Imagen de respaldo';
+  };
+
   return (
-    <img className="default-img" src={src} alt={alt} onError={e => e.currentTarget.src = '../../public/pexels-efrem-efre-2786187-20074914.jpg'} />
-  )
+    <div className="image-container">
+      {hasError ? (
+        <div className="fallback-placeholder">Imagen no disponible</div>
+      ) : (
+        <img
+          className="default-img"
+          src={src}
+          alt={alt}
+          onError={handleError}
+        />
+      )}
+    </div>
+  );
 }
 
-export default DefaultToImg
+export default DefaultToImg;

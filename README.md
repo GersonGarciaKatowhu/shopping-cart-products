@@ -1,17 +1,27 @@
-# Enunciado
+# Carrito de Compras
 
-Ecommerce
+Este proyecto es una aplicación de carrito de compras donde los usuarios pueden agregar productos a su carrito y gestionar su lista de compras. La aplicación está construida con [React](https://reactjs.org/) y ofrece una interfaz intuitiva para interactuar con los productos.
 
-- [ ] Muestra una lista de productos que vienen de un JSON
-- [ ] Añade un filtro por categoría
-- [ ] Añade un filtro por precio
+## Características
 
-Haz uso de useContext para evitar pasar props innecesarias.
+- **Agregar Productos**: Los usuarios pueden agregar productos al carrito.
+- **Mostrar Carrito**: Visualiza todos los productos añadidos al carrito.
+- **Eliminar Productos**: Elimina productos del carrito si es necesario.
 
-Carrito:
+## Instalación
 
-- [ ] Haz que se puedan añadir los productos a un carrito.
-- [ ] Haz que se puedan eliminar los productos del carrito.
-- [ ] Haz que se puedan modificar la cantidad de productos del carrito.
-- [ ] Sincroniza los cambios del carrito con la lista de productos.
-- [ ] Guarda en un localStorage el carrito para que se recupere al recargar la página. (da puntos)
+1. **Clona el Repositorio**
+
+  ```bash
+gh repo clone GersonGarciaKatowhu/shopping-cart-products
+```
+2. **Instala dependencias**
+```bash
+npm i
+```
+3. **Corre el proyecto**
+```bash
+npm run dev
+```
+![Preview](/public/preview.jpg)
+
